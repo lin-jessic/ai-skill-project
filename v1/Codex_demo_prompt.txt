@@ -1,0 +1,1 @@
+請先閱讀這個 repository 的 SKILL.md、AGENTS.md、agents/、references/ 和 README.md。當我要求分析台灣交通事故的歷史資料、熱點或事故時段時，請依照 Skill 的三角色步驟執行。請先確認 data/raw 裡是否有真正從警政署下載的檔案；沒有就執行官方下載程式或請我手動放入，不可產生模擬事故資料。依序紀錄 Inspector、Analyst、Auditor 的實際執行結果與輸出位置。不要宣稱分析為即時道路危險預測，也不要把附近醫院當成傷者送醫醫院。請保留可觀察的 Skill 啟動證據，並告訴我這次是自動啟動還是手動指定。

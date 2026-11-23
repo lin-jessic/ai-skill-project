@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "2026_A1.json",
+    "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F4077949-50CC-4640-8114-79958CC8BBEA/resource/0DFEFF78-EAA2-4402-B759-BFCC63B002A7/download",
+    "type": "json"
+  },
+  {
+    "filename": "2026_A2_01.zip",
+    "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F713DBFE-7432-4401-B5C0-1C07A8F5B1FB/resource/2DC7C8FE-3053-47CC-AC39-2276399D4909/download",
+    "type": "zip"
+  },
+  {
+    "filename": "2026_A2_02.zip",
+    "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F713DBFE-7432-4401-B5C0-1C07A8F5B1FB/resource/5F855A42-5DBC-41E5-9287-E044C9D0E4DC/download",
+    "type": "zip"
+  },
+  {
+    "filename": "2026_A2_03.zip",
+    "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F713DBFE-7432-4401-B5C0-1C07A8F5B1FB/resource/36F1003E-6D70-44ED-8A47-39C104873A85/download",
+    "type": "zip"
+  },
+  {
+    "filename": "2026_A2_04.zip",
+    "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F713DBFE-7432-4401-B5C0-1C07A8F5B1FB/resource/DA5C3EA1-7B00-4825-BE51-2350FC175D28/download",
+    "type": "zip"
+  },
+  {
+    "filename": "2026_A2_05.zip",
+    "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F713DBFE-7432-4401-B5C0-1C07A8F5B1FB/resource/93340884-6B26-4050-A025-585BE04F1BFD/download",
+    "type": "zip"
+  },
+  {
+    "filename": "2026_A2_06.zip",
+    "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F713DBFE-7432-4401-B5C0-1C07A8F5B1FB/resource/49E4DE5D-6227-4CFA-8CF4-ABAFD340E6FA/download",
+    "type": "zip"
+  },
+  {
+    "filename": "2026_A2_07.zip",
+    "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F713DBFE-7432-4401-B5C0-1C07A8F5B1FB/resource/9DF848E0-23CF-4146-A7B8-DB91A96B2CB9/download",
+    "type": "zip"
+  }
+]

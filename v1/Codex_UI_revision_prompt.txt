@@ -1,0 +1,15 @@
+請在目前 VS Code 工作區檢查 SafeRoad 專案的完整原始碼。
+
+優先閱讀 UPGRADE_GUIDE.md、app.py、scripts/core.py、scripts/run_pipeline.py、SKILL.md 和 tests/。
+
+檢查事項：
+1. 用 Windows Python 環境執行 python -m pytest -q。
+2. 用我下載的真實政府 A1/A2 歷史檔執行 pipeline，不可用測試造假資料代替。
+3. 執行 python -m streamlit run app.py，檢查四個分頁、地圖、篩選和下載按鈕。
+4. 地圖瓦片只能使用免 Key 的 OpenStreetMap；如果希望顯示行政區界，必須先取得真實的 EPSG:4326 GeoJSON。
+5. 多年度篩選必須只顯示真實存在的年份，不可以補假資料。
+6. 保留已有三角色 Skill 與原有流程；不得任意覆蓋資料或用假統計充成果。
+7. 針對我提供的真正測試結果修復 BUG，執行 git diff 並逐項說明修改原因。
+8. 執行成功後給我可匿名繳交的結果；不可把 API Key、名字或學校帳號寫進公開 Repo。
+
+不要自行聲稱 Skill 自動啟動測試已成功；A/B/C 必須在實際 AI 平台另行錄影確認。
