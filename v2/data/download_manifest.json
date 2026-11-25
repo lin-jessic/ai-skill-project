@@ -1,0 +1,62 @@
+{
+  "tax": {
+    "key": "tax",
+    "dataset": "9400",
+    "title": "財政部全國營業（稅籍）登記資料",
+    "source_url": "https://eip.fia.gov.tw/data/BGMOPEN1.zip",
+    "downloaded_at_utc": "2026-11-25T06:46:11.933519+00:00",
+    "file": "data\\raw\\tax\\BGMOPEN1.zip",
+    "bytes": 66460450,
+    "sha256": "22f84e3484a80e741b01e6ce9e9b2f86fdaffc3a6518c4af2f0331445eddc9ea",
+    "status": "downloaded",
+    "note": "下載成功不代表資料綱要已完成相容性驗證"
+  },
+  "population": {
+    "key": "population",
+    "dataset": "77132",
+    "title": "內政部村里戶數、單一年齡人口 2025/12",
+    "source_url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/008BCB78-3608-48AB-8431-BB7377340424/download",
+    "downloaded_at_utc": "2026-11-25T06:46:13.927895+00:00",
+    "file": "data\\raw\\population\\population_2025_12.csv",
+    "bytes": 4394739,
+    "sha256": "5b905b135eb8f6179f62c7cc76d7f6d28c4c960caec3e3074c245a2945d70249",
+    "status": "downloaded",
+    "note": "下載成功不代表資料綱要已完成相容性驗證"
+  },
+  "metro": {
+    "key": "metro",
+    "dataset": "164957",
+    "title": "桃園捷運各站平均日運量 2026/06",
+    "source_url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/3ec59f62-b35c-4469-8b8a-145f22ec8318/download",
+    "downloaded_at_utc": "2026-11-25T06:46:14.457114+00:00",
+    "file": "data\\raw\\transit\\taoyuan_metro_2026_06.csv",
+    "bytes": 624,
+    "sha256": "156f95fc2e180cf90e5d0d68c70ccee7f955fbd9ebabc93b8b0a01fa582b3196",
+    "status": "downloaded",
+    "note": "下載成功不代表資料綱要已完成相容性驗證"
+  },
+  "industry": {
+    "key": "industry",
+    "dataset": "25346",
+    "title": "商業登記家數及資本額（縣市與行業別）2026/02",
+    "source_url": "https://data.gcis.nat.gov.tw/od/file?oid=7C2E10AC-AC3B-4E84-B30B-FC62D32FB5F7",
+    "downloaded_at_utc": "2026-11-25T06:46:15.126089+00:00",
+    "file": "data\\raw\\market\\industry_2026_02.csv",
+    "bytes": 8869,
+    "sha256": "4007d74a6766d72814c3c21c4d1ec88762beabaf5992eab9e30cc1c7cde8f215",
+    "status": "downloaded",
+    "note": "下載成功不代表資料綱要已完成相容性驗證"
+  },
+  "restaurant": {
+    "key": "restaurant",
+    "dataset": "94937",
+    "title": "經濟部餐飲業經營實況－餐館",
+    "source_url": "https://www.moea.gov.tw/MNS/populace/content/wHandMenuFile.ashx?file_id=19466",
+    "downloaded_at_utc": "2026-11-25T06:46:15.711831+00:00",
+    "file": "data\\raw\\market\\restaurant_statistics.csv",
+    "bytes": 663,
+    "sha256": "3e4f203658dede9060414a15c224a8024300ee0536cdfc03ef341bcd8e7f2c46",
+    "status": "downloaded",
+    "note": "下載成功不代表資料綱要已完成相容性驗證"
+  }
+}
