@@ -17,12 +17,13 @@ CITY_ALIAS={'台北市':'臺北市','台中市':'臺中市','台南市':'臺南�
 SHOP_TYPES=['手搖飲店','咖啡廳','早餐店','甜點店','餐館','服飾店','花店']
 FOOD=set(SHOP_TYPES[:5])
 SOURCES={
- 'tax':{'title':'財政部全國營業（稅籍）登記資料','dataset':'9400','url':'https://eip.fia.gov.tw/data/BGMOPEN1.zip','file':'tax/BGMOPEN1.zip','kind':'官方原始資料'},
- 'population':{'title':'內政部村里戶數、單一年齡人口 2025/12','dataset':'77132','url':'https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/008BCB78-3608-48AB-8431-BB7377340424/download','file':'population/population_2025_12.csv','kind':'官方原始資料'},
- 'metro':{'title':'桃園捷運各站平均日運量 2026/06','dataset':'164957','url':'https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/3ec59f62-b35c-4469-8b8a-145f22ec8318/download','file':'transit/taoyuan_metro_2026_06.csv','kind':'官方原始資料'},
- 'industry':{'title':'商業登記家數及資本額（縣市與行業別）2026/02','dataset':'25346','url':'https://data.gcis.nat.gov.tw/od/file?oid=7C2E10AC-AC3B-4E84-B30B-FC62D32FB5F7','file':'market/industry_2026_02.csv','kind':'官方月份快照（2026/02）'},
- 'restaurant':{'title':'經濟部餐飲業經營實況－餐館','dataset':'94937','url':'https://www.moea.gov.tw/MNS/populace/content/wHandMenuFile.ashx?file_id=19466','file':'market/restaurant_statistics.csv','kind':'官方產業統計'},
+ 'tax':{'title':'財政部全國營業（稅籍）登記資料','dataset':'9400','url':'https://eip.fia.gov.tw/data/BGMOPEN1.zip','file':'tax/BGMOPEN1.zip','kind':'官方原始 ZIP；提供直連'},
+ 'population':{'title':'內政部村里人口資料','dataset':'77132','url':'https://data.gov.tw/dataset/77132','file':'population/population.csv','kind':'官方資料頁；請選當期資源'},
+ 'metro':{'title':'桃園捷運站運量','dataset':'164957','url':'https://data.gov.tw/dataset/164957','file':'transit/taoyuan_metro.csv','kind':'官方資料頁；請選當期資源'},
+ 'industry':{'title':'商業登記家數及資本額','dataset':'25346','url':'https://data.gov.tw/dataset/25346','file':'market/industry.csv','kind':'官方資料頁；請選當期資源'},
+ 'restaurant':{'title':'餐飲業經營實況','dataset':'94937','url':'https://data.gov.tw/dataset/94937','file':'market/restaurant_statistics.csv','kind':'官方資料頁；請選當期資源'},
 }
+
 
 def clean_city(s):
     s=str(s or '').strip();return CITY_ALIAS.get(s,s)

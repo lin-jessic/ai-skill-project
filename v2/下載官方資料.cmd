@@ -1,15 +1,18 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-echo OpenShop AI - Official data downloader
-echo Files are saved under data\raw\.
-python -m pip install -r requirements.txt
-if errorlevel 1 goto fail
+echo ============================================
+echo OpenShop AI v2 - 官方資料收集工具
+ echo ============================================
+where python >nul 2>nul
+if errorlevel 1 (
+ echo [ERROR] 找不到 Python，請先安裝 Python 並加入 PATH。
+ pause
+ exit /b 1
+)
 python -m scripts.download_official
-if errorlevel 1 echo Some official servers did not return data. Read README and download manually.
+if errorlevel 1 echo [提醒] 請查看上方錯誤。
+echo.
+echo 查看已存檔案：
+python -m scripts.download_official --check
 pause
-exit /b 0
-:fail
-echo Dependency installation failed.
-pause
-exit /b 1

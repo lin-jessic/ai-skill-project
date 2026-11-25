@@ -1,0 +1,1042 @@
+{
+  "generated_utc": "2026-11-25T07:24:07.042005+00:00",
+  "mode": "all-months",
+  "files": [
+    {
+      "dataset": "tax",
+      "status": "existing",
+      "path": "data\\raw\\tax\\BGMOPEN1.zip",
+      "size_bytes": 66460450,
+      "sha256": "22f84e3484a80e741b01e6ce9e9b2f86fdaffc3a6518c4af2f0331445eddc9ea",
+      "url": "https://eip.fia.gov.tw/data/BGMOPEN1.zip"
+    },
+    {
+      "dataset": "population",
+      "period": 202401,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202401.csv",
+      "size_bytes": 4398147,
+      "sha256": "bb1cfb06887da2969f138e91c3b8638aff8e08a0206ecf4592a7f3978e7e77a8",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/AE5B9413-A33C-41DF-9AA9-CC5766D25E4C/download",
+      "resource_label": "CSV  檢視資料 11301-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202402,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202402.csv",
+      "size_bytes": 4398118,
+      "sha256": "5261a5d8438cedfcb91a42d42368877181539142635dbc858e3937b932767f61",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/B9B3BE90-A215-40EC-8781-E4EE146D9F44/download",
+      "resource_label": "CSV  檢視資料 11302-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202403,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202403.csv",
+      "size_bytes": 4398004,
+      "sha256": "4f7511cac58b78cdf3a8b79e1890a23830887ef3d93a191682fbee273ee55358",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/25B35F97-0030-4652-AE46-D398A088B696/download",
+      "resource_label": "CSV  檢視資料 11303-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202404,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202404.csv",
+      "size_bytes": 4398073,
+      "sha256": "f6f8aa0d9ac1507607cdef9cc467b8b2437da150a59d2f6719122b4862c5d2e7",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/2588E5AE-D528-4DF0-841C-91BCBAFDC2AD/download",
+      "resource_label": "CSV  檢視資料 11304-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202405,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202405.csv",
+      "size_bytes": 4397815,
+      "sha256": "b03c2ec684ff0f3ed3746b1f88b115936bc298e155416993f986c4ea317337dc",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/AE7A2906-3EB0-4BDD-98B2-192B4DD1C30A/download",
+      "resource_label": "CSV  檢視資料 11305-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202406,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202406.csv",
+      "size_bytes": 4397507,
+      "sha256": "978f3990a780ddfca22fdd56a38d6c2767a5151c666ae317692de6723fb357f7",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/222F8FA5-1BC2-4159-ABEF-699318E0D755/download",
+      "resource_label": "CSV  檢視資料 11306-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202407,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202407.csv",
+      "size_bytes": 4397407,
+      "sha256": "336dc9350662d727fac53ebbe3e78e98056ad2a103068cd2b82695cbc8db3af6",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/55A20B30-1633-4605-929F-54D14E07508A/download",
+      "resource_label": "CSV  檢視資料 11307-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202408,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202408.csv",
+      "size_bytes": 4396935,
+      "sha256": "ab98f72e131455ea5aed9dccaaeaddae67adbdb776c079d3d305eefccbac82f8",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/D92C4FA1-9D76-49C2-9681-29BDFA145418/download",
+      "resource_label": "CSV  檢視資料 11308-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202409,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202409.csv",
+      "size_bytes": 4396814,
+      "sha256": "66ab6e5c338b0abc863b7a925fb993edddfdcb885961f849cd517d2c186c9332",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/B5D00FFA-D127-4179-843D-77B3C5D337A7/download",
+      "resource_label": "CSV  檢視資料 11309-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202410,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202410.csv",
+      "size_bytes": 4396732,
+      "sha256": "91eceebc6e4263165adb43ad5ddfaae630527e6ad047f168f2968488955dc4d1",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/BBB6D904-3BE4-4A5E-819C-31F454A91C99/download",
+      "resource_label": "CSV  檢視資料 11310-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202411,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202411.csv",
+      "size_bytes": 4396543,
+      "sha256": "6086d2406ef782b465f5cdcca2ce177f8d5b097b5c3e7e87ed5ad77ca1fc9ef0",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/10247CAA-26A1-48EB-A40C-61E9A78B02C5/download",
+      "resource_label": "CSV  檢視資料 11311-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202412,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202412.csv",
+      "size_bytes": 4396351,
+      "sha256": "0435583af1b2b2c2d43af8604a1932998eb4c1d40d23d15e9e4fadcbc11acb7a",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/6CE62A07-0C48-4ADB-A679-48C4752E33BD/download",
+      "resource_label": "CSV  檢視資料 11312-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202501,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202501.csv",
+      "size_bytes": 4396139,
+      "sha256": "06bb8039b1b9d7c4a66040baecc46cbc43b4d632bf70a328d38f20c031d7b46f",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/E8964AAB-44C8-4566-98CD-E05EB9111799/download",
+      "resource_label": "CSV  檢視資料 11401-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202502,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202502.csv",
+      "size_bytes": 4395836,
+      "sha256": "9eea78545f101e438523134d36136a3a65b33cb5a6e38f4d197a1be2792a5633",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/6940A9B4-CD1E-4B28-A31F-96F9E04B7E39/download",
+      "resource_label": "CSV  檢視資料 11402-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202503,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202503.csv",
+      "size_bytes": 4395667,
+      "sha256": "2a4b02ebafe8a1289149dabec91e4252c69678751442fcfad09da297fc7d48e8",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/2DE5067B-2A06-4DC4-A9B5-F8C4506B86B8/download",
+      "resource_label": "CSV  檢視資料 11403-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202504,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202504.csv",
+      "size_bytes": 4395476,
+      "sha256": "cf9fbcbb044e7d9950ed2e44eedade364e1a61bcd7c15c178e8be72554026983",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/73229417-008E-4D45-AD3C-3F625B2959F0/download",
+      "resource_label": "CSV  檢視資料 11404-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202505,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202505.csv",
+      "size_bytes": 4394785,
+      "sha256": "b91646b41e21cebc2ecf7c29fc68cd94adcadd1c091b04bfa1e2c715f68ffee6",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/FD755808-C5C4-4E59-8708-21E1B62945DB/download",
+      "resource_label": "CSV  檢視資料 11405-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202506,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202506.csv",
+      "size_bytes": 4394718,
+      "sha256": "6058b9a1ed4f6d7fa3968f5b9055a2f2c16342016ce9e755f9c10cc2efcfe720",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/ED0BA029-9922-4E46-BFA3-9EAA2E5057EE/download",
+      "resource_label": "CSV  檢視資料 11406-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202507,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202507.csv",
+      "size_bytes": 4394838,
+      "sha256": "53b2fd2584c6b67576065ec95ceca375829a76848b1cff1f129308d8e9f1c00e",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/790DF826-1086-45D5-9CDE-6CF13E8D479A/download",
+      "resource_label": "CSV  檢視資料 11407-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202508,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202508.csv",
+      "size_bytes": 4394027,
+      "sha256": "bb8277a3c841da3ad99db5950b2b44809127acb4dcac003c7290f53a7543f649",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/0CBA079D-9CBA-499C-A690-8765BB44D5CA/download",
+      "resource_label": "CSV  檢視資料 11408-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202509,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202509.csv",
+      "size_bytes": 4394182,
+      "sha256": "739f75cdc8157188d7c6192889d1f2dfaec609dab9970315809160d25880dba4",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/2A746960-8DD5-4415-BFE2-29F130602440/download",
+      "resource_label": "CSV  檢視資料 11409-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202510,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202510.csv",
+      "size_bytes": 4394432,
+      "sha256": "7778bc00f2b048d3291bd26264afddec14f698630afa717f767511ad9f26161d",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/1C6A57F6-DCEF-4C0D-9C22-0F7324267938/download",
+      "resource_label": "CSV  檢視資料 11410-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202511,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202511.csv",
+      "size_bytes": 4393808,
+      "sha256": "0112db08fa66d870279b79586318d647701cf97157e6b82888a32c49a8f69606",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/29C9C012-3977-4B2C-A404-86AF857D44EB/download",
+      "resource_label": "CSV  檢視資料 11411-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202512,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202512.csv",
+      "size_bytes": 4394739,
+      "sha256": "5b905b135eb8f6179f62c7cc76d7f6d28c4c960caec3e3074c245a2945d70249",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/008BCB78-3608-48AB-8431-BB7377340424/download",
+      "resource_label": "CSV  檢視資料 11412-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202601,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202601.csv",
+      "size_bytes": 4394186,
+      "sha256": "a9a809f65c76619042b214f30da356940bf799d2a99badeae10d39140c7da846",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/866BA163-14EB-4891-8274-42B70AF29C00/download",
+      "resource_label": "CSV  檢視資料 11501-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202602,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202602.csv",
+      "size_bytes": 4394301,
+      "sha256": "fa6e76da7703bd73a7bdce7e1c2e83ff91f4cfac6ba0962f1d4f81e54f3716e1",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/35108D69-1E5A-4B2B-94F9-5548FB328AF8/download",
+      "resource_label": "CSV  檢視資料 11502-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202603,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202603.csv",
+      "size_bytes": 4404120,
+      "sha256": "e546bdd5033fc23024aacd744dd08489643e87f9063cbc62a707576b7c7eea6c",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/8D501B1C-FE09-414A-9C21-6659718EEFE5/download",
+      "resource_label": "CSV  檢視資料 11503-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202604,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202604.csv",
+      "size_bytes": 4404546,
+      "sha256": "0dc93610c69767831dfc0fc6a5d663c2848f4c21b8ce8497a5c651e9babdfebc",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/44EDEF1F-EBDC-4CF0-9C6D-E845875CECF1/download",
+      "resource_label": "CSV  檢視資料 11504-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202605,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202605.csv",
+      "size_bytes": 4404157,
+      "sha256": "0cfb4b9a01fe33b8ab4ec5b641ba35b0364cf42b9477067693b10f47ad5ad58e",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/4CAA7169-5E84-46FB-BA91-72ED6274B84A/download",
+      "resource_label": "CSV  檢視資料 11505-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202606,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202606.csv",
+      "size_bytes": 4404733,
+      "sha256": "b08e089251aa97a7a17d8424e0864125577e6100c473ae42a772a715ac45ecd6",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/15C4487D-4D34-4ABF-8704-D227A1D5740B/download",
+      "resource_label": "CSV  檢視資料 11506-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202607,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202607.csv",
+      "size_bytes": 4411140,
+      "sha256": "3c6f0c4e2fc9c4dbebaa0419d9be2db27efa9909e07ecbae96e8162a23c0718e",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/2AECF812-8E8D-4D56-B62D-DE7A3C5BCE28/download",
+      "resource_label": "CSV  檢視資料 11507-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202608,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202608.csv",
+      "size_bytes": 4410382,
+      "sha256": "e7ae74090240a97015cba878ebab1c776651e0fe490453d65f8d7d9adaa92ed8",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/13E3DE59-5186-4A45-8EAC-8D95B841734A/download",
+      "resource_label": "CSV  檢視資料 11508-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202609,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202609.csv",
+      "size_bytes": 4410232,
+      "sha256": "2d6553617f516896399f57aad01e21025bad482e7e5a4cd1b6c411047c75cac6",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/4B0C00ED-C271-4A3E-A547-3C00EE6BF3E4/download",
+      "resource_label": "CSV  檢視資料 11509-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "population",
+      "period": 202610,
+      "status": "downloaded",
+      "path": "data\\raw\\population\\village_population_202610.csv",
+      "size_bytes": 4409830,
+      "sha256": "d3a334b52aa2ac2d887ae263368999efa108905ded90f09dd728a5d738455c98",
+      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/2C7688CB-B505-4D00-B11C-66C4D31B024F/resource/DB9911DB-8C0A-40AB-8BD1-78A184EDD6FB/download",
+      "resource_label": "CSV  檢視資料 11510-村里戶數、單一年齡人口"
+    },
+    {
+      "dataset": "metro",
+      "period": 202401,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202401.csv",
+      "size_bytes": 621,
+      "sha256": "23c7ea615adec2d29886319a90691d5a2d434b14dc8fd693a848798882d392c2",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/faf7929a-021f-43bd-bd74-9a5d938f396e/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202401"
+    },
+    {
+      "dataset": "metro",
+      "period": 202402,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202402.csv",
+      "size_bytes": 622,
+      "sha256": "9ea6c124a03f4413b8078cbbcc627f5edc42178675145a2abbe82b6a22654b8c",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/b956b31a-d78f-4dd1-b2d8-e59037e140cb/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202402"
+    },
+    {
+      "dataset": "metro",
+      "period": 202403,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202403.csv",
+      "size_bytes": 622,
+      "sha256": "2b68626a72d9ce73cff9441c255ef349eb5f39309fe9768893dd55d79c9ff292",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/a98fa232-82fb-4ec0-acee-02beacd35dce/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202403"
+    },
+    {
+      "dataset": "metro",
+      "period": 202404,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202404.csv",
+      "size_bytes": 622,
+      "sha256": "7585d1900157caf9286e146b96b070e68c4cabee563c84cd398699a2844bd7f6",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/59bb2b0c-d3c6-4434-9448-158a578105b8/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202404"
+    },
+    {
+      "dataset": "metro",
+      "period": 202405,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202405.csv",
+      "size_bytes": 621,
+      "sha256": "684003a7593e0db3a6d3cce6eee4e608738ba65f35ffa4fff302537ee7a47159",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/beca60e9-f078-4a8b-864a-97a47eb4508d/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202405"
+    },
+    {
+      "dataset": "metro",
+      "period": 202406,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202406.csv",
+      "size_bytes": 622,
+      "sha256": "67188d0dbcc0c8ed58b6941c4663d1d5733a08a60b6e1b94cfd16a03929b03d4",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/348b008c-71db-4625-9b7c-7f8520965e46/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202406"
+    },
+    {
+      "dataset": "metro",
+      "period": 202407,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202407.csv",
+      "size_bytes": 622,
+      "sha256": "0958ccf46bc7b3e8c3229b70630d65cedb04e8590ef5b67380fe5f97de51c154",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/be0cbee2-6c34-4846-8fa2-9dc9f880b01c/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202407"
+    },
+    {
+      "dataset": "metro",
+      "period": 202408,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202408.csv",
+      "size_bytes": 622,
+      "sha256": "06e9f69576758859a23d2651906aa6dbc20acd642404e238009e35f514a35375",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/1bd158a6-b861-4d7f-9771-93c719d24765/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202408"
+    },
+    {
+      "dataset": "metro",
+      "period": 202409,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202409.csv",
+      "size_bytes": 622,
+      "sha256": "7addb8e09336bfd6273994f3e926f35e8fdb3f26f098b4b9e9832972e3f5c38c",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/14e124a1-2352-4cb9-b255-734b51389f40/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202409"
+    },
+    {
+      "dataset": "metro",
+      "period": 202410,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202410.csv",
+      "size_bytes": 644,
+      "sha256": "e1e33293f72db3c59e43122e546d89914c58eb625dcf48d16f2af92c2b436bdc",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/16664741-d1e7-4823-9d1d-b0cf22b038e8/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202410"
+    },
+    {
+      "dataset": "metro",
+      "period": 202411,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202411.csv",
+      "size_bytes": 645,
+      "sha256": "c156b467dd60205184668609548e1b2f481ff1f2268c7d46c0a8c8db86699874",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/ec08c125-f960-45fe-9be7-944677d883dc/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202411"
+    },
+    {
+      "dataset": "metro",
+      "period": 202412,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202412.csv",
+      "size_bytes": 705,
+      "sha256": "45bd3c4beca4ae393df92db69e141df23c038cddf97ed237589043ea5eb1b0d1",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/331c17ed-7ea6-4f06-b348-ed78a6617f31/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202412"
+    },
+    {
+      "dataset": "metro",
+      "period": 202501,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202501.csv",
+      "size_bytes": 682,
+      "sha256": "8c09a67ba4662d5a895680bb8bb7cf5b3f7ecf85ce007600174fb4284b548f12",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/970275b0-ad9a-49eb-b2ec-1120e30f961f/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202501"
+    },
+    {
+      "dataset": "metro",
+      "period": 202502,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202502.csv",
+      "size_bytes": 686,
+      "sha256": "bb00027358de710e18413260b5eff510e4152cc2ce10ca87cce8a0fe44f52a63",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/717eaf5f-440b-4933-b13c-3c6f6c4127bf/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202502"
+    },
+    {
+      "dataset": "metro",
+      "period": 202503,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202503.csv",
+      "size_bytes": 683,
+      "sha256": "81ed3db84fa3f54f7d753e156bca8f81531f10b1a7d66778e7153fdfff6b8eac",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/d811667d-834a-44dc-b492-515560fc38db/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202503"
+    },
+    {
+      "dataset": "metro",
+      "period": 202504,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202504.csv",
+      "size_bytes": 683,
+      "sha256": "525bd3440fe183c110ad02abc120b3264d5c677b1f975a69e745ab920c6c5e26",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/43eb445f-0b5c-4653-a281-8ca2fcd0ddc9/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202504"
+    },
+    {
+      "dataset": "metro",
+      "period": 202505,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202505.csv",
+      "size_bytes": 622,
+      "sha256": "04243d138037e35ea3d2adae09f693ae76de6f99fca160e70f8d6175ba10617c",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/224241f0-0057-4095-a27f-623278ecca7a/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202505"
+    },
+    {
+      "dataset": "metro",
+      "period": 202506,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202506.csv",
+      "size_bytes": 624,
+      "sha256": "bb4982d688ff3d813c7567b5d987b0d6708a8e2141f6f36dd08116cd26e4828f",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/fe3d1918-6c9c-478c-aee5-8ddb0c29fb02/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202506"
+    },
+    {
+      "dataset": "metro",
+      "period": 202507,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202507.csv",
+      "size_bytes": 623,
+      "sha256": "d554c26eb331f5e8143e2490f0ccb9c9a95dd5bae2c9678c21b0a597c05b3494",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/0117860e-94ae-4618-ace8-7af94bef6adf/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202507"
+    },
+    {
+      "dataset": "metro",
+      "period": 202508,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202508.csv",
+      "size_bytes": 624,
+      "sha256": "f98405576bc25ca081dfcc6b4baebd2099181f1285719c2e82364e2957ae1975",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/5c967946-4ad6-40c5-8091-08fd941ac7e4/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202508"
+    },
+    {
+      "dataset": "metro",
+      "period": 202509,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202509.csv",
+      "size_bytes": 623,
+      "sha256": "ffabf913a7a5480209e2504ad1aa457bafae50132fad1fb4f24ad54b073c0521",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/6ddbb39b-896f-4593-87d0-ebc3f6295adc/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202509"
+    },
+    {
+      "dataset": "metro",
+      "period": 202510,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202510.csv",
+      "size_bytes": 646,
+      "sha256": "5d14237fdb15da8ad0a4310e906a1b193c9613eeb6b4a96a122b7d6868387028",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/f79141d0-bc64-446a-8e20-93b9d37ab6ee/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202510"
+    },
+    {
+      "dataset": "metro",
+      "period": 202511,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202511.csv",
+      "size_bytes": 646,
+      "sha256": "1c3a3e0321d768cfc0cedaefb8f8cd8d227c82e3317e0d171ec9a3c1214603d9",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/2e099e14-0472-48b5-96fb-f1df2670e746/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202511"
+    },
+    {
+      "dataset": "metro",
+      "period": 202512,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202512.csv",
+      "size_bytes": 646,
+      "sha256": "05d53d2bb5c727945eeff00e856b18630cd17f805736cc75e3bfd27066678320",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/1dcd7add-3342-49f7-afc5-44f34fcdd2af/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202512"
+    },
+    {
+      "dataset": "metro",
+      "period": 202601,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202601.csv",
+      "size_bytes": 624,
+      "sha256": "e40fe4327c87dfe5a19991fee2de26aea45a3a2981b8b7dd1d1fdb8638b6a9bd",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/34082a13-d74a-4293-9d6f-ab0af1a16c96/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202601"
+    },
+    {
+      "dataset": "metro",
+      "period": 202602,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202602.csv",
+      "size_bytes": 623,
+      "sha256": "fa3c367ec75bcbcb349db465e8c5a370704cc97024bd0de0b4b301584a187f5a",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/f21c9386-44e2-467c-b22d-7b6e2240714c/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202602"
+    },
+    {
+      "dataset": "metro",
+      "period": 202603,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202603.csv",
+      "size_bytes": 624,
+      "sha256": "58b241821c0c532a6c3421ba3bb6f4be85a273461b31b24699017cf1d79b60a6",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/8e0879a3-b614-426a-9bb2-6fff0b0d9071/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202603"
+    },
+    {
+      "dataset": "metro",
+      "period": 202604,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202604.csv",
+      "size_bytes": 624,
+      "sha256": "988af398564f43b635fa0a3fbc9948bb6de071fd060117db862e4c6207a95d8c",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/2e3dbb03-dbcb-4950-9e6d-8ff4034ceb27/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202604"
+    },
+    {
+      "dataset": "metro",
+      "period": 202605,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202605.csv",
+      "size_bytes": 624,
+      "sha256": "518ce6ed9b3181d6ec941300055789270a8f1fc747ce80ea92b1756e38666c71",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/a497f8d7-f102-410f-b3b4-d79d89ad354b/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202605"
+    },
+    {
+      "dataset": "metro",
+      "period": 202606,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202606.csv",
+      "size_bytes": 624,
+      "sha256": "156f95fc2e180cf90e5d0d68c70ccee7f955fbd9ebabc93b8b0a01fa582b3196",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/3ec59f62-b35c-4469-8b8a-145f22ec8318/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202606"
+    },
+    {
+      "dataset": "metro",
+      "period": 202607,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202607.csv",
+      "size_bytes": 624,
+      "sha256": "07d7d45447da9548bef66f2f305c772db79c91193798255944d58af0c79ac6c0",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/4c4b2c71-a9a9-4385-9c53-1a34ada4c496/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202607"
+    },
+    {
+      "dataset": "metro",
+      "period": 202608,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202608.csv",
+      "size_bytes": 624,
+      "sha256": "09f8986ccb1276dc38a4ea61c2332cdb44018c1610ff393f97356a1a5691930f",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/269150bb-6ae4-43aa-994e-dfde14060391/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202608"
+    },
+    {
+      "dataset": "metro",
+      "period": 202609,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202609.csv",
+      "size_bytes": 624,
+      "sha256": "21027d167257f863976b50883459e6ba33e3fa8d06519b93cd7711bde2266f9c",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/c4854589-c6c8-4e15-aa23-95dc3b445694/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202609"
+    },
+    {
+      "dataset": "metro",
+      "period": 202610,
+      "status": "downloaded",
+      "path": "data\\raw\\transit\\taoyuan_metro_202610.csv",
+      "size_bytes": 646,
+      "sha256": "cb2bee2fc85cd8df034dec7e946baaae704d0d25b4e50a7094935de55504c1a2",
+      "url": "https://opendata.tycg.gov.tw/api/dataset/7a7e006b-ec19-47ad-8fc8-6640a7a72f8a/resource/746925c5-dd83-4640-8497-5c997aa923a0/download",
+      "resource_label": "CSV  檢視資料 捷運各站運量統計表_202610"
+    },
+    {
+      "dataset": "industry",
+      "period": 202401,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202401.csv",
+      "size_bytes": 8851,
+      "sha256": "1209238b02e5c59857b00d9fff0de0e966e2b37a1aff848fe27462ff43e574c2",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=7256BE9E-90C2-4A14-9438-A83DE7121B55",
+      "resource_label": "CSV  檢視資料 2024年01月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202402,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202402.csv",
+      "size_bytes": 8851,
+      "sha256": "011ac5571ac7f0b42aeb1e3ed5b763d5127dc0cc4c368cdff7e8d99c17f90eb4",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=F3B9D490-F1C4-424C-B990-11890D50957D",
+      "resource_label": "CSV  檢視資料 2024年02月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202403,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202403.csv",
+      "size_bytes": 8853,
+      "sha256": "ec70a9ff484eb2e011444a004b1934320e25584f276f92b6041ed94c75bfaa13",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=63461B44-867F-4FFE-A981-09DA546D354C",
+      "resource_label": "CSV  檢視資料 2024年03月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202404,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202404.csv",
+      "size_bytes": 8853,
+      "sha256": "259fc60f1bdc77b5093a6089082052e66ab4d21f7067f656fd93d2cb5a194491",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=E02AD630-054C-4D9E-A856-E2F83AD6D0C1",
+      "resource_label": "CSV  檢視資料 2024年04月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202405,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202405.csv",
+      "size_bytes": 8857,
+      "sha256": "ad74415f26a3886f7a922e430a67a45a1f5f300c21a6d832c175aa45d1642f13",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=09669EC1-A98C-421B-AAD8-98081A1CAF20",
+      "resource_label": "CSV  檢視資料 2024年05月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202406,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202406.csv",
+      "size_bytes": 8856,
+      "sha256": "a8063c23a9a9b6891937a86ce62690003a4ad4bd6a768f9e75a8b33fdb022fd5",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=103681C5-DB44-49E2-BED8-235E4BFD85E3",
+      "resource_label": "CSV  檢視資料 2024年06月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202407,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202407.csv",
+      "size_bytes": 8859,
+      "sha256": "8be777c4d79255aa7b99c423dcfbb71d6e6005ecc056194ad8c3c3040efdc7e5",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=FC98DFDA-2AF4-4192-81AE-F92AA5CD81FD",
+      "resource_label": "CSV  檢視資料 2024年07月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202408,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202408.csv",
+      "size_bytes": 8859,
+      "sha256": "f64b95a001cd662c0b33f8a9259e524a1081debd14584eb622439c16f3f44e09",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=C4A62640-CF1E-46D5-8894-595EF0D128AB",
+      "resource_label": "CSV  檢視資料 2024年08月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202409,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202409.csv",
+      "size_bytes": 8861,
+      "sha256": "0304ac56abf5f68f196d9cc372ae621a2f094b00c02301fb8efce8d1a38e07d0",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=9A83AEA8-C347-4E57-A1D7-A6D2572287DA",
+      "resource_label": "CSV  檢視資料 2024年09月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202410,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202410.csv",
+      "size_bytes": 8859,
+      "sha256": "f64a166614fa13bec5a5e40207cb0b62e30409d94d31a8e229f050cd7d03a08e",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=910A69E8-B3B1-4F89-9DD5-08BE580E33A4",
+      "resource_label": "CSV  檢視資料 2024年10月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202411,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202411.csv",
+      "size_bytes": 8854,
+      "sha256": "57fedbc8cdd5b287c21354aed6f3833dccad2be23acdd3e3b965ecdad47b2b0b",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=62CB605F-841B-4A5C-9FA0-FA68CCA3EC14",
+      "resource_label": "CSV  檢視資料 2024年11月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202412,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202412.csv",
+      "size_bytes": 8855,
+      "sha256": "31c18459c48b297be3235882f47534f2ed5e80d5e34d32d8daa88ea4e889d635",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=5895FDBE-381E-414E-A9EC-D8DBBEE6EC3B",
+      "resource_label": "CSV  檢視資料 2024年12月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202501,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202501.csv",
+      "size_bytes": 8854,
+      "sha256": "48b4f4c4898aa3abecf163d57e57c3e3df95351bca39814067af3f40bd4cf256",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=4DA8C84E-7401-4332-8E15-D5CC6D2184B7",
+      "resource_label": "CSV  檢視資料 2025年01月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202502,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202502.csv",
+      "size_bytes": 8857,
+      "sha256": "f3148c808a655fd212034e16104d49e817ed1e7f59e303f556e70af953c9c534",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=1902FD14-9AC9-4402-9E04-5F6C929E710C",
+      "resource_label": "CSV  檢視資料 2025年02月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202503,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202503.csv",
+      "size_bytes": 8861,
+      "sha256": "10f9536a31bbe421e88f115b5db6765857fb3a6a50e017a2e72f032882b35d4e",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=5E4FE076-517E-4310-B091-6138715BBF83",
+      "resource_label": "CSV  檢視資料 2025年03月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202504,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202504.csv",
+      "size_bytes": 8861,
+      "sha256": "b8e68be221f4900122adc85d61cc449a7fe55011e2d4469eb7f6f0ade7f9d06b",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=A4B7BCB8-D5D3-4F27-8646-3BAAA0DA3258",
+      "resource_label": "CSV  檢視資料 2025年04月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202505,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202505.csv",
+      "size_bytes": 8862,
+      "sha256": "1a4e3f810b084786f5601b5e8bf6b62ccf57553ba38ffda172605de501da9561",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=01EBE09B-5F31-4C9A-BF8A-65F2B7A4B66E",
+      "resource_label": "CSV  檢視資料 2025年05月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202506,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202506.csv",
+      "size_bytes": 8866,
+      "sha256": "7b32e76a964177ebfc4eab60f4170fe9fb5dca13597d5b367bd0264636a76997",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=A6EB1A5C-0A82-4DEC-ACBB-0C459795D52F",
+      "resource_label": "CSV  檢視資料 2025年06月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202507,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202507.csv",
+      "size_bytes": 8867,
+      "sha256": "e8d5eb7f9da8dad242596e147ca4a4d5a7c50bc854e57b059f8d27eca9f4b8ca",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=1975BEF8-E488-4E15-9ADC-E65FFD5FF959",
+      "resource_label": "CSV  檢視資料 2025年07月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202508,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202508.csv",
+      "size_bytes": 8867,
+      "sha256": "d99995864eab8c569fd5bb9f5c8aa86a651f60c4dd63183c8d0b5909f1ad60fd",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=1DAA61FF-B8A4-4674-9DD6-2CE2510B8841",
+      "resource_label": "CSV  檢視資料 2025年08月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202509,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202509.csv",
+      "size_bytes": 8871,
+      "sha256": "a65eee9d2e231a6820b4fd98914305e62a9c36f3d813d017285fd7a1a0427f29",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=2304EF53-54A0-48E3-837E-6DD9C9593424",
+      "resource_label": "CSV  檢視資料 2025年09月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202510,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202510.csv",
+      "size_bytes": 8870,
+      "sha256": "3691d665b99963bb770b1d76f83215add52d07180f76781240f8dadeedbfc3bd",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=BB83C07C-F7B6-4DD0-901D-A40DF1332546",
+      "resource_label": "CSV  檢視資料 2025年10月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202511,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202511.csv",
+      "size_bytes": 8873,
+      "sha256": "339b7992937221e0f6ec8ca343be2d7725e826722ed88933bb37dc573260c14c",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=AF6D71D0-743C-4194-B197-82D84A1AA082",
+      "resource_label": "CSV  檢視資料 2025年11月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202512,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202512.csv",
+      "size_bytes": 8871,
+      "sha256": "6a42c929c296162c6246150fa9a9a1d8c322eade2e18e6f459874b9f74446a83",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=F2540F01-18A0-4DCC-B3B1-E5168DF63230",
+      "resource_label": "CSV  檢視資料 2025年12月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202601,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202601.csv",
+      "size_bytes": 8873,
+      "sha256": "c59a26b19e7676ec9993f141d8d708f3e93640096560697174708669257b4dc9",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=B1EB3765-E584-4052-BDE3-A33EC785D44A",
+      "resource_label": "CSV  檢視資料 2026年01月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202602,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202602.csv",
+      "size_bytes": 8869,
+      "sha256": "4007d74a6766d72814c3c21c4d1ec88762beabaf5992eab9e30cc1c7cde8f215",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=7C2E10AC-AC3B-4E84-B30B-FC62D32FB5F7",
+      "resource_label": "CSV  檢視資料 2026年02月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202603,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202603.csv",
+      "size_bytes": 8868,
+      "sha256": "7b0f738a08c1c363bbded3c8038954d972c5f1c293d7049b0ab044646f4f0458",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=5C47A515-934F-4379-B8E1-1813F025437A",
+      "resource_label": "CSV  檢視資料 2026年03月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202604,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202604.csv",
+      "size_bytes": 8868,
+      "sha256": "0a33b9c170aeb420643ae51ba62e42389b35d3288fc3ec17f09c80373193b0e1",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=4F4612D6-5CE4-460B-97BF-54E04571E5BC",
+      "resource_label": "CSV  檢視資料 2026年04月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202605,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202605.csv",
+      "size_bytes": 8870,
+      "sha256": "0be2955acae689bafc1276832d25af3359dd957c198f7b29c4efbc541e806848",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=FF253B63-EFD2-4B04-BCC1-1EB678FC18E9",
+      "resource_label": "CSV  檢視資料 2026年05月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202606,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202606.csv",
+      "size_bytes": 8872,
+      "sha256": "a1be13e8463699e6321db37fdcfc8476f382cbaec97d32ffbfda3e68161cffdf",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=B43C066A-4B98-44BA-AFF9-975BA5DC6782",
+      "resource_label": "CSV  檢視資料 2026年06月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202607,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202607.csv",
+      "size_bytes": 8872,
+      "sha256": "abd591ed0fe85d7863d85079cceb3b9804a9f3963dedc2a535fa1c795c4a02c1",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=DBA7E121-9000-4C9A-8DB8-304C94D69AA8",
+      "resource_label": "CSV  檢視資料 2026年07月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202608,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202608.csv",
+      "size_bytes": 8873,
+      "sha256": "cfd5e83cbc15867ac94d12ddd1ed56dc22893413e72d3986292898806bdb840d",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=EB610D2F-AE87-4279-B3F1-1C4B50C52918",
+      "resource_label": "CSV  檢視資料 2026年08月"
+    },
+    {
+      "dataset": "industry",
+      "period": 202609,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\industry_counts_202609.csv",
+      "size_bytes": 8873,
+      "sha256": "3b2ca894df5c7742a26bf5eece4c91087dae5e36c0d9c711a4f0da02e70e653b",
+      "url": "https://data.gcis.nat.gov.tw/od/file?oid=FA5B19CC-FB48-45E2-BB0A-9AE0149D4F04",
+      "resource_label": "CSV  檢視資料 2026年09月"
+    },
+    {
+      "dataset": "restaurant",
+      "period": null,
+      "status": "downloaded",
+      "path": "data\\raw\\market\\restaurant_survey.csv",
+      "size_bytes": 663,
+      "sha256": "3e4f203658dede9060414a15c224a8024300ee0536cdfc03ef341bcd8e7f2c46",
+      "url": "https://www.moea.gov.tw/MNS/populace/content/wHandMenuFile.ashx?file_id=19466",
+      "resource_label": "CSV  檢視資料"
+    }
+  ],
+  "errors": [],
+  "sources": {
+    "tax": "https://data.gov.tw/dataset/9400",
+    "population": "https://data.gov.tw/dataset/77132",
+    "metro": "https://data.gov.tw/dataset/164957",
+    "industry": "https://data.gov.tw/dataset/25346",
+    "restaurant": "https://data.gov.tw/dataset/94937"
+  }
+}

@@ -1,14 +1,7 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-python -m pip install -r requirements.txt
-if errorlevel 1 goto fail
 python -m pytest -q
-if errorlevel 1 goto fail
-python -m scripts.run_pipeline
+if errorlevel 1 (echo Tests failed.&pause&exit /b 1)
+python -m scripts.run_studio --input "examples\DEMO_商圈資料_情境假設_非官方.csv" --shop "手搖飲店" --city "桃園市"
 pause
-exit /b 0
-:fail
-echo Execution failed. Review error above.
-pause
-exit /b 1
