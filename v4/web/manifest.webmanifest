@@ -1,0 +1,16 @@
+{
+  "id": "/",
+  "name": "OpenShop LIFE — 台灣開店模擬器",
+  "short_name": "OpenShop",
+  "description": "商圈資料 × 法規任務 × 開店程序 × 每日經營遊戲",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8f2e8",
+  "theme_color": "#f8f2e8",
+  "lang": "zh-Hant",
+  "icons": [
+    {"src":"/assets/icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"/assets/icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

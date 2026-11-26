@@ -1,0 +1,18 @@
+{
+  "shop": "手搖飲店",
+  "city": "桃園市",
+  "finance": {
+    "price": 65,
+    "variable": 25,
+    "daily": 100,
+    "rent": 35000,
+    "payroll": 75000,
+    "fixed_other": 20000,
+    "days": 26,
+    "initial": 800000,
+    "dinein_share": 0.2,
+    "delivery_share": 0.25,
+    "commission": 0.3,
+    "delivery_packaging": 4
+  }
+}

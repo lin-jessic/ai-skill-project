@@ -1,0 +1,44 @@
+[
+  {
+    "item": "商業或公司設立登記",
+    "action": "依組織及營業型態確認登記義務",
+    "source": "https://onestop.nat.gov.tw/",
+    "status": "待核實",
+    "scope": "手搖飲店／桃園市"
+  },
+  {
+    "item": "稅籍及稅務",
+    "action": "確認稅籍登記、發票與報稅義務",
+    "source": "https://www.etax.nat.gov.tw/",
+    "status": "待核實",
+    "scope": "手搖飲店／桃園市"
+  },
+  {
+    "item": "場地用途與消防",
+    "action": "向所在地主管機關查核土地使用、建築與消防條件",
+    "source": "https://www.gov.tw/",
+    "status": "待核實",
+    "scope": "手搖飲店／桃園市"
+  },
+  {
+    "item": "僱用與勞動條件",
+    "action": "依實際僱用條件查核工時、薪資、保險與勞動規則",
+    "source": "https://laws.mol.gov.tw/",
+    "status": "待核實",
+    "scope": "手搖飲店／桃園市"
+  },
+  {
+    "item": "食品業者登錄",
+    "action": "確認是否符合食品業者登錄適用對象",
+    "source": "https://www.fda.gov.tw/",
+    "status": "待核實",
+    "scope": "手搖飲店／桃園市"
+  },
+  {
+    "item": "食品衛生／GHP",
+    "action": "依店型與作業內容核對衛生與設備要求",
+    "source": "https://www.fda.gov.tw/TC/siteContent.aspx?sid=3077",
+    "status": "待核實",
+    "scope": "手搖飲店／桃園市"
+  }
+]
