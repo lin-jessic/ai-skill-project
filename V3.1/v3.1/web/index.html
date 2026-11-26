@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f2e8">
+  <meta name="description" content="OpenShop LIFE：三角色開店規劃與互動經營模擬，提供商圈分析、法規檢核與營運決策。">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="OpenShop LIFE">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192.png">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <title>OpenShop LIFE｜我的開店人生</title>
+</head>
+<body>
+<div class="game-shell">
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="回到遊戲首頁"><span class="brand-mark">✿</span><span><strong>OpenShop</strong><small>LIFE STUDIO</small></span></a>
+    <div class="top-pills"><span class="pill live"><span class="pulse"></span> LOCAL STUDIO</span><span class="pill">V3.1</span><span class="pill">20 TYPES</span></div>
+    <button id="installBtn" class="mini-install" hidden>＋ 加入主畫面</button>
+  </header>
+  <main id="main" class="main-area">
+    <div class="journey-progress" aria-label="開店流程進度"><div><strong>開店流程</strong><span id="journeyStep">第 1 步／6</span></div><div class="journey-track"><span id="journeyFill"></span></div><button id="journeyNext" class="btn btn-outline" data-nav="create">從第一步開始 →</button></div>
+    <section id="view-home" class="view active" aria-label="遊戲首頁">
+      <div class="hero">
+        <div class="hero-copy"><div class="eyebrow">WELCOME TO YOUR BUSINESS LIFE · TAIWAN EDITION</div>
+          <h1>開一家店，<br><em>把你的點子變成日常。</em></h1>
+          <p>選擇你的理想店鋪，研究商圈、完成開店任務、做出經營決策。每一步都有數據與來源，也有需要確認的現實限制。</p>
+          <div class="hero-actions"><button class="btn btn-primary" data-nav="create">建立我的店鋪 <span aria-hidden="true">↗</span></button><button class="btn btn-light" data-nav="upload">📄 教授檔案挑戰</button></div>
+        </div>
+        <div class="hero-scene" aria-hidden="true"><div class="scene-sun"></div><div class="scene-cloud a">☁</div><div class="scene-cloud b">☁</div><div class="scene-shop"><div class="awning">▰ ▰ ▰ ▰ ▰</div><div class="shop-sign">OPEN SHOP</div><div class="shop-glass"><div class="shop-door"></div><div class="shop-cup">☕</div></div></div><div class="scene-flower left">✿</div><div class="scene-flower right">✾</div><div class="scene-ground"></div></div>
+      </div>
+      <div class="section-title"><div><span class="eyebrow ink">YOUR JOURNEY</span><h2>六個能力，經營你的開店人生</h2></div><span class="subtle">一個主 Skill · 三階段分析 · 六大遊戲模組</span></div>
+      <div class="feature-grid">
+        <button class="feature-card" data-nav="upload"><span class="feature-ico peach">📥</span><strong>01 資料挑戰</strong><span>上傳 CSV／JSON，啟動市場分析與驗證</span><span class="feature-go">開始 →</span></button>
+        <button class="feature-card" data-nav="locations"><span class="feature-ico green">📍</span><strong>02 商圈 PK</strong><span>人口、競品、交通、租金四維比較</span><span class="feature-go">進入 →</span></button>
+        <button class="feature-card" data-nav="legal"><span class="feature-ico violet">📜</span><strong>03 法規通關</strong><span>不同店型的合規任務與官方入口</span><span class="feature-go">進入 →</span></button>
+        <button class="feature-card" data-nav="channels"><span class="feature-ico blue">🛵</span><strong>04 店面與通路</strong><span>內用／外帶／外送策略實驗室</span><span class="feature-go">進入 →</span></button>
+        <button class="feature-card" data-nav="day"><span class="feature-ico yellow">🎮</span><strong>05 每日營運</strong><span>一天一天決定你的商店命運</span><span class="feature-go">進入 →</span></button>
+        <button class="feature-card" data-nav="finance"><span class="feature-ico rose">📈</span><strong>06 老闆財務</strong><span>調整成本與銷量，查看盈虧走勢</span><span class="feature-go">進入 →</span></button>
+      </div>
+      <div class="home-note"><span>🔍</span><p><strong>我們很重視資料來源。</strong> 檔案內的數據是否屬於官方資料，必須透過來源、日期及欄位核對；遊戲事件、訂單與預設參數一律標示為情境假設。</p></div>
+    </section>
+
+    <section id="view-create" class="view" aria-label="建立店鋪">
+      <div class="page-heading"><span class="eyebrow ink">建立店鋪 / STEP 01</span><h1>設計你的第一間店 ✨</h1><p>先完成店鋪設定，再依序匯入資料、查看分析與試算經營。</p></div>
+      <div class="two-panel"><div class="panel"><div class="panel-head"><h2>店鋪名片</h2><span class="chip">可隨時修改</span></div>
+        <div class="form-grid"><label>產業分類<select id="categoryInput"><option>餐飲</option><option>零售</option><option>服務</option></select></label>
+        <label>想開的店<select id="shopInput"></select></label>
+        <label>縣市<select id="cityInput"><option>桃園市</option><option>臺北市</option><option>新北市</option><option>臺中市</option><option>臺南市</option><option>高雄市</option><option>新竹市</option><option>新竹縣</option><option>基隆市</option><option>苗栗縣</option><option>彰化縣</option><option>宜蘭縣</option><option>花蓮縣</option><option>嘉義市</option><option>嘉義縣</option><option>屏東縣</option><option>南投縣</option><option>雲林縣</option><option>臺東縣</option><option>澎湖縣</option><option>金門縣</option><option>連江縣</option></select></label>
+        <label>行政區或商圈<input id="districtInput" value="中壢區" maxlength="80"></label>
+        <label>店面坪數<input id="areaInput" type="number" min="1" max="600" value="20"></label>
+        <label>創業預算（元）<input id="budgetInput" type="number" min="10000" value="800000" step="10000"></label>
+        <label>預計開幕日<input id="dateInput" type="date" value="2027-03-01"></label></div>
+        <div class="toolbar"><button class="btn btn-primary" id="saveShop">儲存店鋪設定 ✓</button><button class="btn btn-outline" data-nav="upload">下一步：匯入商圈資料 →</button></div></div>
+      <aside class="panel preview-shop"><div class="preview-icon" id="previewShopIcon">🧋</div><div class="eyebrow ink">MY STORE CARD</div><h2 id="previewShopTitle">手搖飲店</h2><p id="previewShopPlace">桃園市 · 中壢區</p><div class="preview-mini"><span>啟動資金</span><strong id="previewBudget">NT$ 800,000</strong></div><p class="subtle">開店規劃是教學與研究用途；合法性仍需要由主管機關按實際店址審查。</p></aside></div>
+    </section>
+
+    <section id="view-upload" class="view" aria-label="檔案挑戰">
+      <div class="page-heading"><span class="eyebrow ink">資料挑戰 / 三階段分析</span><h1>教授給資料，我們實際跑一遍。</h1><p>每次分析都會顯示匯入檔名、筆數、SHA-256、三階段成果與審查狀態。</p></div>
+      <div class="two-panel"><div class="panel"><h2>📥 上傳商圈資料</h2><div class="drop-zone" id="dropZone"><span class="drop-icon">⬆</span><strong>拖入 CSV／JSON，或點擊選擇</strong><span>支援中文欄名；上限 20 MB。欄位需有地區、人口、同業、交通指標及租金。</span><input type="file" id="fileInput" accept=".csv,.json,text/csv,application/json"></div><div class="file-meta" id="fileMeta">尚未選擇檔案</div><div class="toolbar"><a class="btn btn-outline" href="/api/sample" download>↓ 下載示範資料（非官方）</a><button id="runBtn" class="btn btn-primary" disabled>▶ 執行三階段分析</button></div></div>
+      <div class="panel"><h2>🧠 三階段分析如何合作？</h2><div class="agent-flow"><div class="agent-row"><b class="step-circle">1</b><div><strong>市場分析</strong><small>資料品質 → 商圈評分 → 可行性限制</small></div><span id="agent1Status">待啟動</span></div><div class="flow-arrow">↓</div><div class="agent-row"><b class="step-circle">2</b><div><strong>法規整理</strong><small>店型與區域 → 合規事項 → 官方來源</small></div><span id="agent2Status">待啟動</span></div><div class="flow-arrow">↓</div><div class="agent-row"><b class="step-circle">3</b><div><strong>程序與審查</strong><small>排程、預算、跨階段一致性</small></div><span id="agent3Status">待啟動</span></div></div></div></div>
+      <div class="result-panel" id="uploadResult" hidden><div class="panel"><div class="panel-head"><h2>本次分析已產生成果</h2><span class="chip" id="auditStatus"></span></div><div class="summary-stats" id="uploadStats"></div><div class="toolbar"><button class="btn btn-primary" data-nav="locations">查看商圈排行 →</button><button class="btn btn-outline" data-nav="report">查看審查及匯出 →</button></div></div></div>
+    </section>
+
+    <section id="view-locations" class="view"><div class="page-heading"><span class="eyebrow ink">LOCATION INTELLIGENCE</span><h1>商圈 PK，選址不是憑感覺 🏆</h1><p>可調整權重；排行僅針對本次上傳的候選地點，是相對指標而非投資報酬率。</p></div>
+      <div class="panel"><div class="panel-head"><h2>評比偏好</h2><span class="chip">合計 100%</span></div><div class="sliders"><label>人口重要性 <strong id="weightPopLabel">40%</strong><input type="range" id="weightPop" min="0" max="80" value="40"></label><label>交通重要性 <strong id="weightFootLabel">35%</strong><input type="range" id="weightFoot" min="0" max="80" value="35"></label><div>競品＋租金 <strong id="weightRestLabel">25%</strong></div></div></div>
+      <div class="panel"><h2>候選商圈排行榜</h2><p id="rankingFormula" class="subtle">調整權重後，排行會即時重算。</p><div id="locationChart" class="ranking-list empty">請先到資料挑戰上傳 CSV／JSON 並完成分析。</div><p class="fineprint">* 競品數採反向指標；交通運量不等於進店客數。資料來源未獨立驗證者不得標為官方。</p></div>
+    </section>
+
+    <section id="view-legal" class="view"><div class="page-heading"><span class="eyebrow ink">COMPLIANCE QUEST</span><h1>開店前的法規通關簿 📜</h1><p>勾選代表你已自行檢查，不代表主管機關已核准。</p></div><div class="panel"><div class="panel-head"><h2>店型專屬任務</h2><span class="chip" id="legalBadge">待核實</span></div><div class="progress-track"><div class="progress-fill" id="legalProgress"></div></div><p id="legalCount" class="subtle">完成 0 項</p><div id="legalList" class="task-list"></div></div><div class="panel"><h2>員工、食材與設備 SOP</h2><div id="opsList" class="task-list"></div></div></section>
+
+    <section id="view-channels" class="view"><div class="page-heading"><span class="eyebrow ink">CUSTOMER CHANNELS</span><h1>內用、外帶還是外送？ 🛵</h1><p>調整你想嘗試的營運模式。比例是你的假設，不是當地居民的實際偏好調查。</p></div><div class="two-panel"><div class="panel"><h2>通路比例</h2><label class="slider-label">內用 <b id="dineLabel">30%</b><input type="range" id="dineInput" min="0" max="100" step="5" value="30"></label><label class="slider-label">外送 <b id="deliveryLabel">20%</b><input type="range" id="deliveryInput" min="0" max="100" step="5" value="20"></label><label class="slider-label">平台費率（假設） <b id="commLabel">30%</b><input type="range" id="commInput" min="0" max="50" step="1" value="30"></label><div class="donut-wrap"><div class="donut" id="channelDonut"><span id="donutCenter">100%<small>訂單分配</small></span></div><div class="legend"><span><i class="dot green"></i> 內用 <b id="dineLegend">30%</b></span><span><i class="dot coral"></i> 外帶 <b id="takeLegend">50%</b></span><span><i class="dot purple"></i> 外送 <b id="deliveryLegend">20%</b></span></div></div></div><div class="panel"><h2>經營模式提醒</h2><div class="tip-card">🪑 <strong>內用</strong><p>桌椅、動線、廁所、場地使用需確認。</p></div><div class="tip-card">🛍️ <strong>外帶</strong><p>取餐窗口、尖峰排隊流程與包材耗損。</p></div><div class="tip-card">🛵 <strong>外送</strong><p>平台店家是否能上線需自行查核；區域訂單量並無直接資料。</p></div><button class="btn btn-primary" data-nav="finance">看看對損益的影響 →</button></div></div></section>
+
+    <section id="view-day" class="view"><div class="page-heading"><span class="eyebrow ink">DAY BY DAY / OWNER STORY</span><h1>今天，輪到你當老闆。 🎮</h1><p>做出一項決策，市場事件將改變今日訂單與現金流。所有事件都是固定亂數種子的<b>教學模擬</b>。</p></div>
+      <div class="day-dashboard"><div class="day-hero"><div class="eyebrow">BUSINESS JOURNAL</div><div class="day-number" id="dayNumber">DAY 01</div><strong id="dayEvent">開店第一天</strong><p id="dayStory">今天要做什麼？選一張經營決策卡。</p><div class="bankroll">💰 目前模擬現金 <b id="dayCash">NT$ 800,000</b></div><div class="day-goal" id="dayGoal">教學目標：先完成 7 天營運</div></div><div class="panel"><h2>今日營運決策</h2><div id="decisionCards" class="decision-grid"></div><div class="toolbar"><button class="btn btn-primary" id="nextDay">🌞 結算今天</button><button class="btn btn-outline" id="resetDays">↻ 重開一局</button></div></div></div>
+      <div class="two-panel"><div class="panel"><h2>現金流日誌</h2><div id="cashChart" class="chart-holder"><p class="empty">結算第一天後顯示曲線</p></div></div><div class="panel"><h2>每日經營紀錄</h2><div id="dayLog" class="journal-list"><p class="empty">尚無營業紀錄</p></div><button class="btn btn-outline" id="exportDays">下載模擬 CSV</button></div></div>
+    </section>
+
+    <section id="view-finance" class="view"><div class="page-heading"><span class="eyebrow ink">FINANCIAL LAB</span><h1>如果今天真的開店，會賺錢嗎？ 📈</h1><p>這是可調整的財務情境，不是對未來營收的保證或預測。</p></div>
+      <div class="two-panel"><div class="panel"><h2>老闆的經營控制台</h2><div class="form-grid"><label>每筆平均售價（元）<input type="number" id="priceInput" min="1" step="5" value="65"></label><label>每筆直接成本（元）<input type="number" id="variableInput" min="0" step="5" value="25"></label><label>預計每天交易筆數<input type="number" id="dailyInput" min="0" max="100000" step="5" value="70"></label><label>每月租金（元）<input type="number" id="rentInput" min="0" step="1000" value="38000"></label><label>每月人事成本（元）<input type="number" id="payrollInput" min="0" step="5000" value="85000"></label><label>每月其他固定成本<input type="number" id="otherInput" min="0" step="1000" value="18000"></label><label>每月營業天數<input type="number" id="daysInput" min="1" max="31" value="26"></label><label>每份外送包材成本<input type="number" id="packInput" min="0" value="5"></label></div><button class="btn btn-primary" id="updateFinance">重新計算經營模型 ↗</button></div>
+      <div class="panel"><h2>本月情境試算</h2><div class="finance-tiles" id="financeTiles"></div><div class="mini-note">⚠ 所有未經查證的成本和銷量都是使用者假設，不含稅務、折舊、貸款、裝潢攤提與老闆個人薪資等完整成本。</div></div></div><div class="panel"><h2>交易筆數敏感度</h2><div id="financeChart" class="chart-holder"></div><p id="financeChartNote" class="chart-note">左側代表較少交易，右側代表較多交易；金額為每月簡化損益。</p></div>
+    </section>
+
+    <section id="view-more" class="view" aria-label="更多功能"><div class="page-heading"><span class="eyebrow ink">MORE TOOLS</span><h1>更多開店工具</h1><p>從這裡前往商圈、法規、通路、財務與報告模組。</p></div><div class="feature-grid more-grid"><button class="feature-card" data-nav="locations"><span class="feature-ico green">📍</span><strong>商圈 PK</strong><span>比較候選地點與權重</span><span class="feature-go">進入 →</span></button><button class="feature-card" data-nav="legal"><span class="feature-ico violet">📜</span><strong>法規通關</strong><span>檢查店型專屬事項</span><span class="feature-go">進入 →</span></button><button class="feature-card" data-nav="channels"><span class="feature-ico blue">🛵</span><strong>店面與通路</strong><span>調整內用、外帶、外送</span><span class="feature-go">進入 →</span></button><button class="feature-card" data-nav="finance"><span class="feature-ico rose">📈</span><strong>老闆財務</strong><span>查看損益與敏感度</span><span class="feature-go">進入 →</span></button><button class="feature-card" data-nav="report"><span class="feature-ico peach">📑</span><strong>報告與匯出</strong><span>查看證據與下載成果</span><span class="feature-go">進入 →</span></button></div><div class="panel local-data-panel"><div class="panel-head"><h2>本機資料</h2><button id="clearLocalData" class="btn btn-outline">清除本機進度</button></div><p class="subtle">設定、任務勾選與每日模擬會保存在這個瀏覽器中，不會上傳。</p></div></section>
+
+    <section id="view-report" class="view"><div class="page-heading"><span class="eyebrow ink">EVIDENCE ROOM / AUDIT TRAIL</span><h1>每個結論，都要能交代來源。 🔍</h1><p>教授 Demo 可直接展示三階段輸出、審查條件和匯出檔案。</p></div><div class="panel"><h2>本次資料證據</h2><div id="evidenceInfo" class="evidence-grid"><p class="empty">尚未分析上傳檔案；先前往「資料挑戰」。</p></div></div><div class="panel"><h2>三階段成果</h2><div id="artifactCards" class="artifact-grid"></div><div class="toolbar"><button id="exportAll" class="btn btn-primary">下載完整分析 JSON</button><button class="btn btn-outline" data-nav="day">下一步：每日營運 →</button><button class="btn btn-outline" data-nav="upload">更換資料重測</button></div></div><div class="panel"><h2>AI Skill 啟動 A／B／C 測試</h2><p class="subtle">網站按鈕觸發 Python 程式，並不表示 AI 模型已自行辨識並載入 SKILL.md。真正 Skill 觸發應另在支援 Skill 的 AI 工具操作及錄影。</p><div class="test-prompts"><p><b>A 應啟動</b> 我要在桃園開飲料店，幫我研究商圈、法規與開店程序。</p><p><b>B 應啟動</b> 我有80萬想租咖啡廳，不知道客群和申請流程。</p><p><b>C 不應啟動</b> 幫我寫貓咪生日祝福。</p></div></div></section>
+  </main>
+  <nav class="bottom-nav" aria-label="主要導覽"><button data-nav="home" class="nav-active"><span>⌂</span><small>首頁</small></button><button data-nav="create"><span>🏠</span><small>建立店鋪</small></button><button data-nav="upload"><span>📁</span><small>資料挑戰</small></button><button data-nav="day"><span>🎮</span><small>每日營運</small></button><button data-nav="more"><span>☰</span><small>更多</small></button></nav>
+  <div id="toast" role="status" aria-live="polite"></div>
+</div>
+<script src="/assets/app.js" defer></script>
+</body></html>

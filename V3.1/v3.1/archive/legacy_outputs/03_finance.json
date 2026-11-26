@@ -1,0 +1,19 @@
+{
+  "revenue": 169000,
+  "monthly_cost": 210275.0,
+  "monthly_profit": -41275.0,
+  "orders": 2600,
+  "variable_cost": 65000,
+  "fixed_cost": 130000,
+  "delivery_fee": 12675.0,
+  "packaging": 2600.0,
+  "contribution_per_order": 34.12,
+  "breakeven_daily": 147,
+  "runway_months": 19.38,
+  "shares": {
+    "內用": 0.2,
+    "外帶": 0.55,
+    "外送": 0.25
+  },
+  "notes": "僅假設值試算；未計創業初期投入、稅捐、折舊、利息與業主薪資等；不能代表實際獲利或顧客偏好。"
+}

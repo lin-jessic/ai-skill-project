@@ -1,0 +1,13 @@
+{
+  "financial_formula": "PASS",
+  "legal_clearance": "NOT_VERIFIED",
+  "official_data_status": {
+    "tax": false,
+    "population": false,
+    "metro": false,
+    "industry": false,
+    "restaurant": false
+  },
+  "report": "03_business_report.md",
+  "disclaimer": "PASS 只代表計算一致性，非法律或商業可行性核准"
+}
