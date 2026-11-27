@@ -1,0 +1,38 @@
+test_bad_values (test_engine.Tests.test_bad_values) ... ok
+test_budget_block (test_engine.Tests.test_budget_block) ... ok
+test_clean (test_engine.Tests.test_clean) ... ok
+test_config (test_engine.Tests.test_config) ... ok
+test_duplicates (test_engine.Tests.test_duplicates) ... ok
+test_etl (test_engine.Tests.test_etl) ... ok
+test_explicit_payroll_is_preserved (test_engine.Tests.test_explicit_payroll_is_preserved) ... ok
+test_explicit_staffing_mix_is_estimated (test_engine.Tests.test_explicit_staffing_mix_is_estimated) ... ok
+test_finance (test_engine.Tests.test_finance) ... ok
+test_missing_column (test_engine.Tests.test_missing_column) ... ok
+test_pipeline_and_tamper (test_engine.Tests.test_pipeline_and_tamper) ... ok
+test_pipeline_flags_staffing_mismatch_and_rows (test_engine.Tests.test_pipeline_flags_staffing_mismatch_and_rows) ... ok
+test_staffing_estimate_changes_with_count (test_engine.Tests.test_staffing_estimate_changes_with_count) ... ok
+test_urls (test_engine.Tests.test_urls) ... ok
+test_weights (test_engine.Tests.test_weights) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 2.070s
+
+OK
+C:\Users\user\AppData\Local\Temp\tmp1hx5_951\r
+Stage 1: partial -> C:\Users\user\AppData\Local\Temp\tmp1hx5_951\r\01_market_report.json
+Stage 2: partial -> C:\Users\user\AppData\Local\Temp\tmp1hx5_951\r\02_legal_checklist.json
+Stage 3: partial -> C:\Users\user\AppData\Local\Temp\tmp1hx5_951\r\03_financial_report.json
+Stage 4: partial -> C:\Users\user\AppData\Local\Temp\tmp1hx5_951\r\04_business_plan.json
+Stage 5: blocked -> C:\Users\user\AppData\Local\Temp\tmp1hx5_951\r\05_audit_report.json
+C:\Users\user\AppData\Local\Temp\tmpccfy2frh\r
+Stage 1: partial -> C:\Users\user\AppData\Local\Temp\tmpccfy2frh\r\01_market_report.json
+Stage 2: partial -> C:\Users\user\AppData\Local\Temp\tmpccfy2frh\r\02_legal_checklist.json
+Stage 3: partial -> C:\Users\user\AppData\Local\Temp\tmpccfy2frh\r\03_financial_report.json
+Stage 4: partial -> C:\Users\user\AppData\Local\Temp\tmpccfy2frh\r\04_business_plan.json
+Stage 5: partial -> C:\Users\user\AppData\Local\Temp\tmpccfy2frh\r\05_audit_report.json
+C:\Users\user\AppData\Local\Temp\tmpuh7eywwp\r
+Stage 1: partial -> C:\Users\user\AppData\Local\Temp\tmpuh7eywwp\r\01_market_report.json
+Stage 2: partial -> C:\Users\user\AppData\Local\Temp\tmpuh7eywwp\r\02_legal_checklist.json
+Stage 3: partial -> C:\Users\user\AppData\Local\Temp\tmpuh7eywwp\r\03_financial_report.json
+Stage 4: partial -> C:\Users\user\AppData\Local\Temp\tmpuh7eywwp\r\04_business_plan.json
+Stage 5: partial -> C:\Users\user\AppData\Local\Temp\tmpuh7eywwp\r\05_audit_report.json

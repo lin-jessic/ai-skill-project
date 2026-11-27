@@ -1,0 +1,55 @@
+{
+  "city": "桃園市",
+  "period": "合成同一情境",
+  "geography": "假設商圈",
+  "districts": [
+    "桃園車站商圈",
+    "中壢車站商圈"
+  ],
+  "metrics": {
+    "population": {
+      "file": "market_demo.csv",
+      "district_column": "district",
+      "value_column": "population",
+      "aggregate": "single",
+      "unit": "人",
+      "source": "V4 合成教學資料，非官方",
+      "city": "桃園市",
+      "period": "合成同一情境",
+      "geography": "假設商圈"
+    },
+    "competitors": {
+      "file": "market_demo.csv",
+      "district_column": "district",
+      "value_column": "competitors",
+      "aggregate": "single",
+      "unit": "家",
+      "source": "V4 合成教學資料，非官方",
+      "city": "桃園市",
+      "period": "合成同一情境",
+      "geography": "假設商圈"
+    },
+    "footfall": {
+      "file": "market_demo.csv",
+      "district_column": "district",
+      "value_column": "footfall",
+      "aggregate": "single",
+      "unit": "人次／假設期間",
+      "source": "V4 合成教學資料，非官方",
+      "city": "桃園市",
+      "period": "合成同一情境",
+      "geography": "假設商圈"
+    },
+    "rent": {
+      "file": "market_demo.csv",
+      "district_column": "district",
+      "value_column": "rent",
+      "aggregate": "single",
+      "unit": "NTD／月",
+      "source": "V4 合成教學資料，非官方",
+      "city": "桃園市",
+      "period": "合成同一情境",
+      "geography": "假設商圈"
+    }
+  }
+}

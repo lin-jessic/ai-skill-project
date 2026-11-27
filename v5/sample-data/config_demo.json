@@ -1,0 +1,1 @@
+{"business_type":"手搖飲店","location":"桃園市","budget_twd":800000,"floor_area_sqm":66.1,"candidates":["桃園車站商圈","中壢車站商圈"],"allow_assumptions":true,"data_period":"合成同一情境","geography":"假設商圈","assumptions":["使用 V4 合成教學資料，非官方統計","預算及坪數為 Demo 條件"],"daily":150}
